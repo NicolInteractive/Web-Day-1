@@ -1,0 +1,90 @@
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center the content horizontally */
+}
+
+/* Heading and text styles */
+h1 {
+    margin-top: 20px;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    font-size: 1.2em;
+}
+
+/* The paragraph styles */
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+/* Container for buttons */
+.button-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 10px; /* Space between the buttons */
+    width: 90%; /* Ensure it's not too wide */
+    max-width: 500px; /* Max width for the button container */
+    margin-top: 20px; /* Space between text and buttons */
+}
+
+/* Styles for the button */
+a button {
+    width: 100px; /* Equal size for all buttons */
+    height: 100px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+/* Colors for each button */
+#button1 {
+    background-color: #FF6347; /* Tomato */
+}
+
+#button2 {
+    background-color: #FFD700; /* Gold */
+}
+
+#button3 {
+    background-color: #98FB98; /* Pale Green */
+}
+
+#button4 {
+    background-color: #00BFFF; /* Deep Sky Blue */
+}
+
+#button5 {
+    background-color: #FF69B4; /* Hot Pink */
+}
+
+#button6 {
+    background-color: #8A2BE2; /* Blue Violet */
+}
+
+#button7 {
+    background-color: #FF4500; /* Orange Red */
+}
+
+#button8 {
+    background-color: #32CD32; /* Lime Green */
+}
+
+#button9 {
+    background-color: #1E90FF; /* Dodger Blue */
+}
+
+/* Hover effect to make buttons pop */
+a button:hover {
+    transform: scale(1.1); /* Slightly enlarge the button on hover */
+}
